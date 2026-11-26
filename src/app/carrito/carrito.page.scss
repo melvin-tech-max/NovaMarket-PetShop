@@ -1,0 +1,169 @@
+ion-toolbar {
+  --background: #216b53;
+  --color: white;
+}
+
+ion-content {
+  --background: #f4f8f5;
+}
+
+.contenedor-carrito {
+  max-width: 700px;
+  margin: auto;
+}
+
+.encabezado {
+  text-align: center;
+  color: #216b53;
+  padding: 15px;
+}
+
+.encabezado ion-icon {
+  font-size: 45px;
+}
+
+.encabezado h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.encabezado p {
+  color: #65736d;
+}
+
+.instruccion {
+  text-align: center;
+  color: #65736d;
+  font-size: 13px;
+}
+
+ion-list {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px #00000010;
+}
+
+ion-item {
+  --background: white;
+  --color: #26352e;
+  --padding-start: 12px;
+  --min-height: 140px;
+}
+
+ion-thumbnail {
+  width: 85px;
+  height: 85px;
+}
+
+ion-thumbnail img {
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+ion-label h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #216b53;
+}
+
+.precio {
+  color: #216b53;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.cantidades {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 0;
+}
+
+.cantidades ion-button {
+  --color: #216b53;
+  --border-color: #216b53;
+  width: 35px;
+  height: 30px;
+}
+
+.cantidades span {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.subtotal {
+  font-size: 13px;
+  color: #216b53;
+}
+
+ion-card {
+  --background: white;
+  --color: #26352e;
+  margin: 18px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px #00000010;
+}
+
+ion-card-title {
+  color: #216b53;
+  font-size: 21px;
+}
+
+.fila-resumen {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: #216b53;
+  font-size: 19px;
+  margin: 20px 0;
+}
+
+ion-card ion-button {
+  --background: #216b53;
+  --color: white;
+  --border-radius: 10px;
+}
+
+.carrito-vacio {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.carrito-vacio ion-icon {
+  font-size: 80px;
+  color: #216b53;
+}
+
+.carrito-vacio h2 {
+  font-size: 23px;
+  font-weight: bold;
+  color: #216b53;
+}
+
+.carrito-vacio p {
+  margin: 15px 0;
+}
+
+ion-fab-button {
+  --background: #f4a261;
+  --color: #26352e;
+}
+
+@media (max-width: 480px) {
+  ion-thumbnail {
+    width: 65px;
+    height: 65px;
+  }
+
+  .total {
+    font-size: 16px;
+  }
+}

@@ -1,3 +1,75 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <!-- Menú lateral -->
+  <ion-menu
+    contentId="main-content"
+    menuId="menu-principal"
+    side="start"
+    type="overlay">
+
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menú principal</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+
+      <!-- Identidad de la tienda -->
+      <div class="perfil-menu">
+
+        <ion-icon name="paw-outline"></ion-icon>
+
+        <h2>NovaMarket Pet Shop</h2>
+
+        <p>Porque ellos también son familia.</p>
+
+      </div>
+
+      <!-- Opciones de navegación -->
+      <ion-list>
+
+        <ion-menu-toggle autoHide="false">
+          <ion-item routerLink="/home" button detail="false">
+            <ion-icon name="home-outline" slot="start"></ion-icon>
+            <ion-label>Inicio</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle autoHide="false">
+          <ion-item routerLink="/catalogo" button detail="false">
+            <ion-icon name="grid-outline" slot="start"></ion-icon>
+            <ion-label>Catálogo</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle autoHide="false">
+          <ion-item routerLink="/carrito" button detail="false">
+            <ion-icon name="cart-outline" slot="start"></ion-icon>
+            <ion-label>Mi carrito</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+      </ion-list>
+
+      <!-- Información de la tienda -->
+      <div class="informacion-menu">
+
+        <ion-icon name="location-outline"></ion-icon>
+
+        <p>Santiago, República Dominicana</p>
+
+        <p>Entregas a domicilio</p>
+
+        <small>Versión 1.0</small>
+
+      </div>
+
+    </ion-content>
+
+  </ion-menu>
+
+  <!-- Contenido principal de la aplicación -->
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+
 </ion-app>

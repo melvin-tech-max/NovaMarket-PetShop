@@ -1,0 +1,95 @@
+/* Tamaño del menú lateral */
+ion-menu {
+  --width: 290px;
+}
+
+/* Barra superior */
+ion-menu ion-toolbar {
+  --background: #216b53;
+  --color: #ffffff;
+}
+
+/* Fondo del menú */
+ion-menu ion-content {
+  --background: #f7faf8;
+}
+
+/* Identidad de la tienda */
+.perfil-menu {
+  background: #216b53;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+/* Logo de la tienda */
+.perfil-menu ion-icon {
+  font-size: 65px;
+  margin-bottom: 10px;
+}
+
+/* Nombre de la tienda */
+.perfil-menu h2 {
+  font-size: 21px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Eslogan */
+.perfil-menu p {
+  font-size: 13px;
+  margin: 8px 0;
+  color: #d8eee4;
+}
+
+/* Lista de navegación */
+ion-menu ion-list {
+  background: transparent;
+  padding: 15px 10px;
+}
+
+/* Opciones del menú */
+ion-menu ion-item {
+  --background: transparent;
+  --background-hover: #e4f1e9;
+  --color: #216b53;
+  --min-height: 55px;
+  --border-radius: 10px;
+  --inner-border-width: 0;
+
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+/* Iconos de navegación */
+ion-menu ion-item ion-icon {
+  color: #216b53;
+  font-size: 24px;
+}
+
+/* Información de la tienda */
+.informacion-menu {
+  text-align: center;
+  border-top: 1px solid #dce5df;
+  padding: 25px 10px;
+  margin: 15px;
+  color: #65736d;
+}
+
+/* Icono de ubicación */
+.informacion-menu ion-icon {
+  font-size: 30px;
+  color: #216b53;
+}
+
+.informacion-menu p {
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+/* Versión de la aplicación */
+.informacion-menu small {
+  display: block;
+  margin-top: 25px;
+  color: #89968f;
+}
