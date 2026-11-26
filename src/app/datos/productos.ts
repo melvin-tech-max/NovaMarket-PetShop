@@ -14,7 +14,7 @@ export const PRODUCTOS: Producto[] = [
     categoria: 'Alimentación',
     descripcion: 'Alimento nutritivo para perros adultos.',
     precio: 1250,
-    imagen: '/assets/productos/perro.png'
+    imagen: 'assets/productos/perro.png'
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const PRODUCTOS: Producto[] = [
     categoria: 'Alimentación',
     descripcion: 'Nutrición balanceada para gatos.',
     precio: 950,
-    imagen: '/assets/productos/gato.png'
+    imagen: 'assets/productos/gato.png'
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const PRODUCTOS: Producto[] = [
     categoria: 'Entretenimiento',
     descripcion: 'Diversión para tu mejor amigo.',
     precio: 350,
-    imagen: '/assets/productos/juguete.png'
+    imagen: 'assets/productos/juguete.png'
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const PRODUCTOS: Producto[] = [
     categoria: 'Accesorios',
     descripcion: 'Cómodo, resistente y ajustable.',
     precio: 450,
-    imagen: '/assets/productos/collar.png'
+    imagen: 'assets/productos/collar.png'
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ export const PRODUCTOS: Producto[] = [
     categoria: 'Higiene',
     descripcion: 'Limpieza y cuidado del pelaje.',
     precio: 550,
-    imagen: '/assets/productos/champu.png'
+    imagen: 'assets/productos/champu.png'
   },
   {
     id: 6,
@@ -54,6 +54,6 @@ export const PRODUCTOS: Producto[] = [
     categoria: 'Descanso',
     descripcion: 'Un lugar cómodo para descansar.',
     precio: 1800,
-    imagen: '/assets/productos/cama.png'
+    imagen: 'assets/productos/cama.png'
   }
 ];

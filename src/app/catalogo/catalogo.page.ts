@@ -23,7 +23,9 @@ import {
   IonFab,
   IonFabButton,
   IonIcon,
-  IonBadge
+  IonBadge,
+  IonButtons,
+  IonMenuButton
 } from '@ionic/angular';
 
 import { addIcons } from 'ionicons';
@@ -60,7 +62,9 @@ import { Carrito } from '../servicios/carrito';
     IonFab,
     IonFabButton,
     IonIcon,
-    IonBadge
+    IonBadge,
+    IonButtons,
+    IonMenuButton
   ]
 })
 export class CatalogoPage {

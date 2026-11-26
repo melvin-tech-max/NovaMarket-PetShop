@@ -8,6 +8,7 @@ import {
   withComponentInputBinding,
   withPreloading,
   PreloadAllModules,
+  withHashLocation
 } from '@angular/router';
 
 import {
@@ -21,7 +22,7 @@ import { routes } from './app/app.routes';
 bootstrapApplication(AppComponent, {
   providers: [
 
-    // NUEVO: Detección de cambios mediante Zone.js
+    // Detección de cambios mediante Zone.js
     provideZoneChangeDetection(),
 
     {
@@ -34,7 +35,8 @@ bootstrapApplication(AppComponent, {
     provideRouter(
       routes,
       withPreloading(PreloadAllModules),
-      withComponentInputBinding()
+      withComponentInputBinding(),
+      withHashLocation()
     ),
 
   ],
